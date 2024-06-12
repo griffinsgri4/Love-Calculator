@@ -30,9 +30,23 @@ To run this script, you need to have Python installed on your system. You can do
 2. Run the script:
     ```bash
     python love_calculator.py
+    
     ```
+    example:
+       Welcome to the Love Calculator!
+What is your name? 
+Alice
+What is their name? 
+Bob
+Your score is 38, you are alright together.
 
-3. Follow the prompts to enter the names and see the love score.
+In this example:
+
+The user entered "Alice" as their name and "Bob" as the other person's name.
+The script calculated a love score of 38 based on the occurrence of certain letters in the combined string of the names.
+Since the score falls between 40 and 50, the message "Your score is 38, you are alright together." is displayed.
+
+4. Follow the prompts to enter the names and see the love score.
 
 ## Contributing
 
